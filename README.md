@@ -15,6 +15,17 @@ rbenv_homebrew:
 
 `ruby_version` indicates which version of Ruby is to be installed with `rbenv install`.
 
+## Example Playbook
+
+```yaml
+- hosts: localhost
+  vars:
+    rbenv_homebrew:
+      ruby_version: 2.3.1
+  roles:
+    - TupleAustin.rbenv-homebrew
+```
+
 ## License
 
 MIT.
