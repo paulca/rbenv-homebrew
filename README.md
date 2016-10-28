@@ -9,6 +9,7 @@ For simplicity, the installed Ruby version and gems are specific to the current 
 The default Ansible variables and values are:
 
 ```yaml
+# See: defaults/main.yml
 rbenv_homebrew:
   ruby_version: 2.3.1
 ```
