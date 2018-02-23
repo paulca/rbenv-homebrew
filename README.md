@@ -10,7 +10,7 @@ The default Ansible variables and values are:
 
 ```yaml
 # See: defaults/main.yml
-rbenv_homebrew:
+homebrew_rbenv:
   ruby_version: 2.3.1
 ```
 
@@ -21,7 +21,7 @@ rbenv_homebrew:
 ```yaml
 - hosts: localhost
   vars:
-    rbenv_homebrew:
+    homebrew_rbenv:
       ruby_version: 2.3.1
   roles:
     - TupleAustin.rbenv-homebrew
